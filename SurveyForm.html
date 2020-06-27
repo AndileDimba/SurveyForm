@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Survey Form</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="SuveryForm.css">
+</head>
+<body>
+  <header>
+        <h1 id="title">Lionel Messi Survey Form</h1>
+        <p id="description"><u> This is a Suvery Form</u></p>
+  </header>
+   <div id="body">
+    <form id="survey-form" action="">
+       <label id="name">
+           <p>Name:</p>
+       </label>
+          <input id="name" type="text" for="name" placeholder="Enter name" required>
+        <label id="email">
+           <p>Email:</p>
+       </label>
+          <input id="email" type="email" for="email" placeholder="Enter Email here" required>
+       <label id="name">
+           <p>Age:</p>
+       </label>
+       <input id="number" type="number" for="number" placeholder="Enter Number here" required>
+      
+       <p>What Do you think makes Messi the best Football Player?</p>
+       <select id="dropdown">
+           <option value="default">Goals</option>
+           <option value="default">Assists</option>
+           <option value="default">Trophies</option>
+           <option value="default">Individual Awards</option>
+           <option value="default">Dribbles</option>
+       </select>
+
+       <p>Which Messi Ballon'Dor win, was the best year.</p>
+       <input type="radio" name="year"> 2009</input><br>
+       <input type="radio" name="year"> 2010</input><br>
+       <input type="radio" name="year"> 2011</input><br>
+       <input type="radio" name="year"> 2012</input><br>
+       <input type="radio" name="year"> 2015</input><br>
+       <input type="radio" name="year"> 2019</input>
+     
+    <p>Which Other Messi Teammates do you like?</p>
+       <input type="checkbox" name="Teammates" value="player">Umtiti</input><br>
+       <input type="checkbox" name="Teammates" value="player">Arthur</input><br>
+       <input type="checkbox" name="Teammates" value="player">Semedo</input><br>
+       <input type="checkbox" name="Teammates" value="player">Neymar</input><br>
+       <input type="checkbox" name="Teammates" value="player">Suarez</input><br>
+      
+       <textarea id="comment" rows="4" cols="40" placeholder="Add Your Comment Here"></textarea>
+
+    <button id="submit" type="submit">Submit</button>
+
+    </form>
+</div>
+</body>
+</html>
